@@ -1,5 +1,7 @@
-function CreateProduct() {
-  return <>create</>;
+import { NextPage } from 'next'
+
+const CreateProduct: NextPage = () => {
+  return <>CreateProduct</>
 }
 
-export default CreateProduct;
+export default CreateProduct

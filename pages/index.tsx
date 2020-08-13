@@ -1,5 +1,7 @@
-function Home() {
-  return <>home</>;
+import { NextPage } from 'next'
+
+const Home: NextPage = () => {
+  return <>Home</>
 }
 
-export default Home;
+export default Home

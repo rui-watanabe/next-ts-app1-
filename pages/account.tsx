@@ -1,5 +1,7 @@
-function Account() {
-  return <>account</>;
+import { NextPage } from 'next'
+
+const Account: NextPage = () => {
+  return <>Account</>
 }
 
-export default Account;
+export default Account

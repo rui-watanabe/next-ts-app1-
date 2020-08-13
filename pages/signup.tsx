@@ -1,5 +1,7 @@
-function Signup() {
-  return <>signup</>;
+import { NextPage } from 'next'
+
+const Signup: NextPage = () => {
+  return <>Signup</>
 }
 
-export default Signup;
+export default Signup

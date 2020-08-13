@@ -1,4 +1,4 @@
-import { NextComponentType } from "next";
+import { NextComponentType } from 'next'
 
 export const HeadContent: NextComponentType = () => (
   <>
@@ -57,4 +57,4 @@ export const HeadContent: NextComponentType = () => (
     <meta name="msapplication-TileColor" content="#00df94" />
     <meta name="theme-color" content="#00df94" />
   </>
-);
+)

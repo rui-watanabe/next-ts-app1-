@@ -1,10 +1,11 @@
-import Head from "next/head";
-import { Container } from "semantic-ui-react";
+import Head from 'next/head'
+import { NextComponentType } from 'next'
+import { Container } from 'semantic-ui-react'
 
-import { Header } from "./Header";
-import { HeadContent } from "./HeadContent";
+import { Header } from './Header'
+import { HeadContent } from './HeadContent'
 
-export const Layout = () => {
+export const Layout: NextComponentType = () => {
   return (
     <>
       <Head>
@@ -19,7 +20,7 @@ export const Layout = () => {
         <title>NextApp</title>
       </Head>
       <Header />
-      <Container text style={{ paddingTop: "1em" }}></Container>
+      <Container text style={{ paddingTop: '1em' }}></Container>
     </>
-  );
-};
+  )
+}
