@@ -1,4 +1,6 @@
-export default () => (
+import { NextComponentType } from "next";
+
+export const HeadContent: NextComponentType = () => (
   <>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charSet="utf-8" />

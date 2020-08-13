@@ -1,9 +1,9 @@
-import App from "next/app";
+import App, { AppProps } from "next/app";
 
 class MyApp extends App {
   render() {
-    const { Component } = this.props;
-    return <Component />;
+    const { Component, pageProps }: AppProps = this.props;
+    return <Component {...pageProps} />;
   }
 }
 

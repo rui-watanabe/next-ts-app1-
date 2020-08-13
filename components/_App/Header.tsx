@@ -1,5 +1,5 @@
-function Header() {
-  return <>Header</>;
-}
+import { NextComponentType } from "next";
 
-export default Header;
+export const Header: NextComponentType = () => {
+  return <>Header</>;
+};
